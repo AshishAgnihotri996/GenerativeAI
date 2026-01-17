@@ -40,6 +40,21 @@
 #     i+=1
 
 
+# n = 0
+# Output:
+# already Zero
 
 
-
+def demo(n):
+    if n==0:
+        print("zero")
+    elif n>0:
+        while n>0:
+            n=n-1
+            print(n)
+    else:
+        while n<0:
+            n=n+1
+            print(n)
+n= -5
+demo(n)
