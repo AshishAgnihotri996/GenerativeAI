@@ -122,10 +122,11 @@ freq ={}
 # print(D3)
 
 
-keys=["a","b","c"]
-values=[1,2,3]
-d={}
-for k,v in zip(keys,values):
-   d[k]=v
-print(d)
+# keys=["a","b","c"]
+# values=[1,2,3]
+# d={}
+# for k,v in zip(keys,values):
+#    d[k]=v
+# print(d)
 
+d = {'a': 1,'b': {'a': 2, 'c': 3},'d': [{'a': 4}, {'a': 5}]}
