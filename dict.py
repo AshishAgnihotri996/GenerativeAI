@@ -130,3 +130,64 @@ freq ={}
 # print(d)
 
 d = {'a': 1,'b': {'a': 2, 'c': 3},'d': [{'a': 4}, {'a': 5}]}
+# def find_key(data, target):
+#     if isinstance(data, dict):
+#         for k, v in data.items():
+#             if k == target:
+#                 print(v)
+#             find_key(v, target)
+#
+#     elif isinstance(data, list):
+#         for item in data:
+#             find_key(item, target)
+
+
+# test_dict = {'gfg' : {'Manjeet' : 5, 'Himani' : 10},
+#              'is' : {'Manjeet' : 8, 'Himani' : 9},
+#              'best' : {'Manjeet' : 10, 'Himani' : 15 }}
+# key = 'Himani'
+# sum=0
+# for k,v in test_dict.items():
+#     if key in v:
+#         sum+=v[key]
+# print(sum,k)
+
+# d = ['go', 'bat', 'me', 'eat', 'goal', 'boy', 'run']
+# ch = ['e', 'o', 'b', 'a', 'm', 'g', 'l']
+#
+# for word in d:
+#     valid =True
+#     for c in set(word):
+#         if word.count(c)>ch.count(c):
+#             valid =False
+#             break
+#     if valid:
+#         print(word)
+
+
+# Input: "education"
+# Output: {'a':1,'e':1,'i':1,'o':1,'u':1}
+
+
+# ip  = "xyyz"
+# freq ={}
+#
+# for ch in ip:
+#     freq[ch] = freq.get(ch,0)+1
+#     if freq[ch]>2:
+#         print('NO')
+#         break
+# else:
+#     print('yes')
+
+# s1 = 'BOBthebuilder'
+# s2 = 'fBoOkBIHnfndBthesibuishlider'
+#
+# for ch in s1:
+#     if ch not in s2:
+#         print('not')
+#         break
+# else:
+#     print('pos')
+
+test_dict = {"Gfg" : 4, "is" : 7, "Best" : 8, "for" : 6, "Geeks" : 10}
