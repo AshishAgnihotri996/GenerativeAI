@@ -45,16 +45,41 @@
 # already Zero
 
 
-def demo(n):
-    if n==0:
-        print("zero")
-    elif n>0:
-        while n>0:
-            n=n-1
-            print(n)
+# def demo(n):
+#     if n==0:
+#         print("zero")
+#     elif n>0:
+#         while n>0:
+#             n=n-1
+#             print(n)
+#     else:
+#         while n<0:
+#             n=n+1
+#             print(n)
+# n= -5
+# demo(n)
+
+# Input: a = 2, b = 2, c = 5
+# Output: 5
+# Explanation: Out of (2, 2, 5) 5 is the greatest.
+# inp= int(input("enter the number"))
+# while inp>0:
+#     if inp>0:
+#         print('zero')
+#         break
+#     else:
+#         print(inp)
+
+values =[]
+
+while True:
+    inp = int(input("enter the number"))
+    if inp==0:
+        break
     else:
-        while n<0:
-            n=n+1
-            print(n)
-n= -5
-demo(n)
+        values.append(inp)
+        print(values)
+    for i in values:
+        for j in values:
+            print(j)
+
